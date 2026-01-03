@@ -1,0 +1,35 @@
+site_name: Curriculum Vitae
+site_description: Professional CV website
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: amber
+  font:
+    text: "Merriweather"
+    code: "Roboto Mono"
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - CV: cv.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search

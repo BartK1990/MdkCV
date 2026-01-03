@@ -1,0 +1,48 @@
+:root {
+  --cv-max-width: 900px;
+}
+
+/* More formal, print-like layout */
+.md-grid {
+  max-width: var(--cv-max-width);
+}
+
+/* Stronger typography hierarchy */
+.md-typeset h1 {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  margin-top: 1.6em;
+  font-weight: 650;
+}
+
+.md-typeset {
+  line-height: 1.65;
+}
+
+/* Slightly more formal paragraph spacing */
+.md-typeset p {
+  margin: 0.7em 0;
+}
+
+/* Lawyer-style CTA button */
+.cv-download {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid rgba(0,0,0,0.18);
+}
+
+/* Use theme variables so we don't hardcode colors */
+.cv-download {
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+}
+
+.cv-download:hover {
+  background: rgba(0,0,0,0.04);
+}
