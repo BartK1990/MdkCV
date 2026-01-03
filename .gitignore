@@ -1,13 +1,13 @@
-# MkDocs
-site/
-
 # Temporary local tooling
 tools/
 
-# Python
-.venv/
-__pycache__/
-*.py[cod]
+# Astro / Node
+astro/node_modules/
+astro/dist/
+.astro/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS/Editor
 .DS_Store
