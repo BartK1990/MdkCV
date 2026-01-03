@@ -1,11 +1,12 @@
-# Contact
+# Kontakt
 
-- Email: you@example.com
-- LinkedIn: https://www.linkedin.com/in/your-profile
-- Location: City, Country
+- Email: martadrabczak@gmail.com
+- Telefon: +48 665 818 518
+- LinkedIn: https://www.linkedin.com/in/marta-drabczak-kuriata-258550185/
+- Lokalizacja: Wrocław, Polska
 
 ---
 
 <a class="cv-download" href="assets/MDK_CV.pdf" download>
-  Download CV (PDF)
+  Pobierz CV (PDF)
 </a>

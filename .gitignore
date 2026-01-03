@@ -1,6 +1,9 @@
 # MkDocs
 site/
 
+# Temporary local tooling
+tools/
+
 # Python
 .venv/
 __pycache__/

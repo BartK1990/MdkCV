@@ -1,9 +1,9 @@
-site_name: Curriculum Vitae
-site_description: Professional CV website
+site_name: Marta Drabczak-Kuriata - CV
+site_description: Strona CV (MkDocs)
 
 theme:
   name: material
-  language: en
+  language: pl
   features:
     - navigation.instant
     - navigation.top
@@ -20,9 +20,9 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
+  - Start: index.md
   - CV: cv.md
-  - Contact: contact.md
+  - Kontakt: contact.md
 
 markdown_extensions:
   - admonition

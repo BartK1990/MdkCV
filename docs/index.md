@@ -1,23 +1,29 @@
-# Curriculum Vitae
+# Marta Drabczak-Kuriata
 
-## Profile
-A concise, professional overview suitable for a legal practitioner. Replace this text with your own summary (areas of practice, jurisdiction(s), years of experience, languages, and key strengths).
+**Adwokat**
 
-## Practice Areas
-- Commercial law
-- Contract drafting and negotiation
-- Litigation support
-- Compliance and regulatory matters
+## Profil
+Adwokat z doświadczeniem w pracy w kancelarii prawnej we Wrocławiu oraz w udzielaniu porad prawnych w ramach działalności pro bono.
 
-## Experience Highlights
-- Role / Firm — City (YYYY–YYYY)
-- Role / Organization — City (YYYY–YYYY)
+## Doświadczenie (wybrane)
+- **10.2020 – obecnie** — Kancelaria Radców Prawnych P. Śmiałkowski i Wspólnicy sp.k., Wrocław — Adwokat
+- **06.2019 – 09.2020** — Kancelaria Radców Prawnych P. Śmiałkowski i Wspólnicy sp.k., Wrocław — Aplikant adwokacki
+- **01.2017 – 05.2019** — Kancelaria Adwokacka Robert Kaczorowski, Wrocław — Aplikant adwokacki
 
-## Education
-- Degree — University (YYYY)
+## Edukacja
+- **10.2018 – obecnie** — Uniwersytet Społeczno-Humanistyczny, Warszawa — seminaria doktorskie
+- **01.2017 – 01.2020** — Aplikacja Adwokacka — Izba Adwokacka we Wrocławiu
+- **10.2011 – 06.2016** — Uniwersytet Wrocławski, Wydział Prawa, Administracji i Ekonomii — Prawo (stacjonarne), tytuł: magister
+
+## Wolontariat
+- **06.2019 – obecnie** — Centrum Praw Kobiet, Wrocław — porady prawne
+- **10.2013 – 10.2015** — Uniwersytecka Poradnia Prawna — sekcja porad prawnych oraz zakładów karnych
+
+## Języki
+- język angielski — **B2**
 
 ---
 
 <a class="cv-download" href="assets/MDK_CV.pdf" download>
-  Download CV (PDF)
+  Pobierz CV (PDF)
 </a>
