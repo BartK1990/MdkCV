@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   // GitHub Pages project site (https://<user>.github.io/<repo>/)
   // If your repo name differs, update `base` accordingly.
-  site: 'https://<your-gh-username>.github.io/MdkCV/',
+  site: 'https://bartk1990.github.io/MdkCV/',
   base: '/MdkCV/',
   integrations: [tailwind()],
   vite: {
