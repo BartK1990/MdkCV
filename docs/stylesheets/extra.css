@@ -58,21 +58,3 @@
   border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
   box-shadow: var(--md-shadow-z1);
 }
-
-/* Highlight each section as a modern card */
-.cv-section {
-  padding: 1rem 1.1rem;
-  border-radius: 0.6rem;
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 10%, transparent);
-  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
-  box-shadow: var(--md-shadow-z1);
-  margin: 1rem 0;
-}
-
-.cv-section > :first-child {
-  margin-top: 0;
-}
-
-.cv-section > :last-child {
-  margin-bottom: 0;
-}
