@@ -2,7 +2,7 @@
 title: Marta Drabczak-Kuriata - CV
 description: CV - Marta Drabczak-Kuriata (adwokat)
 layout: ../layouts/Minimalist.astro
-pdfLink: MDK_CV.pdf
+pdfLink: resume.pdf
 ---
 
 ![Marta Drabczak-Kuriata](ProfilePicture.jpg)

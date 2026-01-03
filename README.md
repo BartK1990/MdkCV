@@ -8,7 +8,7 @@ This repository builds a CV website using the Astro theme **EmaSuriano/astro-res
 - Layout/theme: `astro/src/layouts/Minimalist.astro`
 - Static assets:
 	- `astro/public/ProfilePicture.jpg`
-	- `astro/public/MDK_CV.pdf`
+	- `astro/public/resume.pdf` (generated at build time)
 
 ## GitHub Pages deployment
 
