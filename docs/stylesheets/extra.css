@@ -34,7 +34,7 @@
   border-radius: 0.4rem;
   text-decoration: none;
   font-weight: 600;
-  border: 1px solid rgba(0,0,0,0.18);
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
 }
 
 /* Use theme variables so we don't hardcode colors */
@@ -44,5 +44,35 @@
 }
 
 .cv-download:hover {
-  background: rgba(0,0,0,0.04);
+  background: color-mix(in srgb, var(--md-default-fg-color) 4%, var(--md-default-bg-color));
+}
+
+/* Profile photo */
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 999px;
+  display: block;
+  margin: 0 0 1rem 0;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
+  box-shadow: var(--md-shadow-z1);
+}
+
+/* Highlight each section as a modern card */
+.cv-section {
+  padding: 1rem 1.1rem;
+  border-radius: 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 10%, transparent);
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+  box-shadow: var(--md-shadow-z1);
+  margin: 1rem 0;
+}
+
+.cv-section > :first-child {
+  margin-top: 0;
+}
+
+.cv-section > :last-child {
+  margin-bottom: 0;
 }
