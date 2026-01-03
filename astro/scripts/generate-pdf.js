@@ -1,10 +1,11 @@
 import { chromium } from "playwright";
 
 const main = async () => {
+  const url = process.env.PDF_URL || "http://127.0.0.1:4321/";
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  await page.goto("http://localhost:4321/", { waitUntil: "networkidle" });
+  await page.goto(url, { waitUntil: "networkidle" });
 
   await page.emulateMedia({ media: "screen" });
 
