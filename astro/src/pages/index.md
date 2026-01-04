@@ -5,7 +5,7 @@ layout: ../layouts/Minimalist.astro
 pdfLink: resume.pdf
 ---
 
-![Marta Drabczak-Kuriata](ProfilePicture.jpg)
+![Marta Drabczak-Kuriata](/ProfilePicture.jpg)
 
 # Marta Drabczak-Kuriata
 
