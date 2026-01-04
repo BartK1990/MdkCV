@@ -5,9 +5,10 @@ layout: ../layouts/Minimalist.astro
 pdfLink: resume.pdf
 ---
 
-![Marta Drabczak-Kuriata](/ProfilePicture.jpg)
-
-# Marta Drabczak-Kuriata
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; gap: 1rem;">
+  <h1 style="margin: 0; flex: 1;">Marta Drabczak-Kuriata</h1>
+  <img src="/ProfilePicture.jpg" alt="Marta Drabczak-Kuriata" style="width: 120px; height: 120px; object-fit: cover; border-radius: 8px; flex-shrink: 0;" />
+</div>
 
 **Adwokat**
 
