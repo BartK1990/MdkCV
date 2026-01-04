@@ -7,7 +7,7 @@ const main = async () => {
 
   await page.goto(url, { waitUntil: "networkidle" });
 
-  await page.emulateMedia({ media: "screen" });
+  // await page.emulateMedia({ media: "screen" });
 
   await page.pdf({
     path: "public/resume.pdf",
