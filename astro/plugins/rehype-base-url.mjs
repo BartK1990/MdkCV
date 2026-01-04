@@ -7,12 +7,10 @@ import { visit } from 'unist-util-visit';
  * @returns {Function} Rehype transformer function
  */
 export default function rehypeBaseUrl(options = {}) {
-  let { base = '/' } = options;
+  const { base = '/' } = options;
   
   // Normalize base to ensure it ends with a slash (unless it's just '/')
-  if (base !== '/' && !base.endsWith('/')) {
-    base = base + '/';
-  }
+  const normalizedBase = base === '/' || base.endsWith('/') ? base : base + '/';
   
   return (tree) => {
     visit(tree, 'element', (node) => {
@@ -20,13 +18,13 @@ export default function rehypeBaseUrl(options = {}) {
       if (node.tagName === 'img' && node.properties?.src) {
         const src = node.properties.src;
         // Only prepend base to absolute paths that don't already start with the base
-        if (src.startsWith('/') && !src.startsWith(base)) {
-          if (base === '/') {
+        if (src.startsWith('/') && !src.startsWith(normalizedBase)) {
+          if (normalizedBase === '/') {
             // If base is '/', the src already starts with '/', so no change needed
             return;
           }
-          // Remove leading slash from src since base already ends with /
-          node.properties.src = base + src.slice(1);
+          // Remove leading slash from src since normalizedBase already ends with /
+          node.properties.src = normalizedBase + src.slice(1);
         }
       }
     });
